@@ -9,6 +9,11 @@ header.header {
     min-height: 50px;
     border-radius: 0;
 
+    li > a {
+     font-size: 18px;
+     padding: 20px 30px;
+   }
+
     .navbar-brand {
       padding: 5px 15px;
       height: 50px;

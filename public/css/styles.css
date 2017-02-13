@@ -8144,6 +8144,9 @@ header.header {
     margin-bottom: 0;
     min-height: 50px;
     border-radius: 0; }
+    header.header .navbar li > a {
+      font-size: 18px;
+      padding: 20px 30px; }
     header.header .navbar .navbar-brand {
       padding: 5px 15px;
       height: 50px; }
@@ -8279,4 +8282,69 @@ section.comments {
     margin-bottom: 1.5em;
     text-transform: uppercase; }
   section.comments .media {
+    color: #777777;
     margin-top: 3em; }
+    section.comments .media .media-body {
+      font-weight: 300; }
+      section.comments .media .media-body .media-heading {
+        font-size: 16px; }
+        section.comments .media .media-body .media-heading small {
+          color: #aaaaaa; }
+  section.comments .btn-reply {
+    color: #aaaaaa;
+    background-color: #fff;
+    border-color: #aaaaaa;
+    transition: all .3s ease-in-out; }
+    section.comments .btn-reply:hover, section.comments .btn-reply:active, section.comments .btn-reply:focus {
+      color: #fff;
+      background-color: #aaaaaa;
+      border-color: #aaaaaa; }
+  section.comments form {
+    padding: 2em;
+    margin-top: 5em;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); }
+    section.comments form h4 {
+      color: #777777;
+      margin-top: 0;
+      margin-bottom: 1.5em; }
+    section.comments form label {
+      color: #777777; }
+
+footer.footer {
+  color: #fff;
+  background-color: #303334;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+  footer.footer .left {
+    text-align: left; }
+    footer.footer .left img {
+      margin-right: 1em; }
+    footer.footer .left a {
+      font-size: 16px;
+      font-weight: 300;
+      margin: .4em 1em;
+      display: inline-block;
+      transition: all .3s ease-in-out; }
+      footer.footer .left a:hover, footer.footer .left a:active, footer.footer .left a:focus {
+        color: #777777; }
+  footer.footer .right {
+    text-align: right; }
+  footer.footer a {
+    color: #fff;
+    text-decoration: none; }
+  footer.footer p {
+    margin-bottom: 0; }
+  footer.footer .fa-inverse {
+    color: #303334; }
+  footer.footer div.copy {
+    color: #c4c4c4;
+    text-align: center;
+    margin-top: 2em; }
+    footer.footer div.copy a {
+      color: #c4c4c4;
+      text-decoration: underline;
+      margin-left: 1em; }
+
+.form-control {
+  background-color: #eeeeee;
+  box-shadow: none; }

@@ -117,7 +117,7 @@
 
   <section class="comments">
     <div class="container">
-      <h2>Leave A Comment</h2>
+      <h2>Comments</h2>
 
       <div class="media">
          <a class="pull-left" href="#">
@@ -125,11 +125,9 @@
          </a>
 
          <div class="media-body">
-            <h4 class="media-heading">Media heading</h4>
-            This is some sample text. This is some sample text.
-            This is some sample text. This is some sample text.
-            This is some sample text. This is some sample text.
-            This is some sample text. This is some sample text.
+            <h4 class="media-heading">Bill Murray <small>- 5 minutes ago</small></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore amet dolores doloremque asperiores fugiat, temporibus rem, dicta dolorem expedita? Eaque doloremque veniam tenetur atque error mollitia eveniet quod harum. Quis.</p>
+            <a href="#" class="btn btn-reply btn-sm"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a>
          </div>
 
       </div>
@@ -140,11 +138,9 @@
          </a>
 
          <div class="media-body">
-            <h4 class="media-heading">Media heading</h4>
-            This is some sample text. This is some sample text.
-            This is some sample text. This is some sample text.
-            This is some sample text. This is some sample text.
-            This is some sample text. This is some sample text.
+            <h4 class="media-heading">Max Rofagha <small>- yesterday</small></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque incidunt accusantium tempore sed, voluptatibus quae amet, fuga unde doloremque eaque quos laborum, autem beatae dicta placeat? Deleniti facere doloribus dignissimos.</p>
+            <a href="#" class="btn btn-reply btn-sm"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a>
 
             <div class="media">
                <a class="pull-left" href="#">
@@ -152,24 +148,39 @@
                </a>
 
                <div class="media-body">
-                  <h4 class="media-heading">Media heading</h4>
-                  This is some sample text. This is some sample text.
-                  This is some sample text. This is some sample text.
-                  This is some sample text. This is some sample text.
-                  This is some sample text. This is some sample text.
+                  <h4 class="media-heading">Scott Tindle <small>- 4 hours ago</small></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores repellendus officia possimus, iusto qui vel, reprehenderit delectus. Incidunt sequi eius culpa, et non maiores consequatur ullam error autem labore?</p>
+                  <a href="#" class="btn btn-reply btn-sm"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a>
                </div>
 
             </div>
          </div>
-
       </div>
 
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <form class="panel panel-default">
+            <h4>Leave A Comment</h4>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Full Name">
+            </div>
+            <div class="form-group">
+              <label for="name">Comment</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Post Comment</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <% include ../partials/footer %>
-  </footer>
+  <% include ../partials/footer %>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

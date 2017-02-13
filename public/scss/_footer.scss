@@ -1,0 +1,55 @@
+footer.footer {
+  color: $white;
+  background-color: #303334;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  .left {
+    text-align: left;
+
+    img {
+      margin-right: 1em;
+    }
+
+    a {
+      font-size: 16px;
+      font-weight: 300;
+      margin: .4em 1em;
+      display: inline-block;
+      transition: all .3s ease-in-out;
+
+      &:hover, &:active, &:focus {
+        color: $gray-light;
+      }
+    }
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .fa-inverse {
+    color: #303334;
+  }
+
+  div.copy {
+    color: lighten($gray-light, 30%);
+    text-align: center;
+    margin-top: 2em;
+
+    a {
+      color: lighten($gray-light, 30%);
+      text-decoration: underline;
+      margin-left: 1em;
+    }
+  }
+}
