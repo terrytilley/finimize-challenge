@@ -1,0 +1,45 @@
+section.related-stories {
+  margin-top: 6em;
+  margin-bottom: 6em;
+
+  .panel {
+    transition: all .3s ease-in-out;
+  }
+
+  .panel-body {
+    padding: 1.5em;
+  }
+
+  a {
+    color: lighten($gray-light, 20%);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+
+    &:hover, &:active, &:focus {
+      .panel {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+
+  h2 {
+    color: $gray-light;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    color: $gray-light;
+  }
+
+  p, img {
+    margin-bottom: 0;
+  }
+
+  img {
+    margin: 0 1em 0 0;
+  }
+}
