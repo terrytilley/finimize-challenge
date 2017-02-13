@@ -1,0 +1,17 @@
+header.header {
+  padding-top: 2em;
+  padding-bottom: 0;
+  display: block;
+  background-color: $brand-primary;
+
+  .navbar {
+    margin-bottom: 0;
+    min-height: 50px;
+    border-radius: 0;
+
+    .navbar-brand {
+      padding: 5px 15px;
+      height: 50px;
+    }
+  }
+}

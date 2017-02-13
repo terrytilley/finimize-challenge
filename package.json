@@ -23,6 +23,7 @@
     "bootstrap-sass": "^3.3.7",
     "ejs": "^2.5.5",
     "express": "^4.14.1",
+    "jquery": "^3.1.1",
     "morgan": "^1.8.1"
   },
   "devDependencies": {

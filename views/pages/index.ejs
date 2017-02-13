@@ -3,21 +3,65 @@
 <head>
   <% include ../partials/head %>
 </head>
-<body class="container">
-  <header>
-    <% include ../partials/header %>
-  </header>
+<body>
+  <% include ../partials/header %>
 
-  <main>
-    <div class="jumbotron">
-      <h1>This is great</h1>
-      <p>Welcome to templating using EJS</p>
-      <button class="btn btn-primary">Button</button>
-    </div>
-  </main>
+  <article class="article">
+    <header>
+      <div class="container">
+        <h1>Apple and Ireland Fight EU</h1>
+        <p>Monday, December 19, 2016 &bull; 3 Min Read</p>
+        <img src="img/article-img-2.jpg" class="img-responsive" alt="Article Image">
+      </div>
+    </header>
+
+    <main class="container">
+      <h2>What's going on here?</h2>
+
+      <p>On Monday, both <span>Apple and Ireland launched a formal appeal against a <a href="#">recent European Union (EU) ruling</a> that Apple pay Ireland €13 billion in unpaid taxes.</span> (<a href="#">tweet this</a>)</p>
+      <h2>What does this mean?</h2>
+
+      <p>The EU claim centers on two of Apple’s Ireland-based subsidiaries <a href="#">through which much of Apple’s profits outside of the US were “booked.”</a> In accordance with Ireland’s tax code at the time, Apple paid the Irish government a very small amount of tax on those profits (less than 1% in some years). The EU is alleging that Ireland gave Apple a special, unfair deal. While Ireland lost out on some tax revenue, its economy has benefitted from having Apple (and other multinational companies) base their European headquarters and other operations there.</p>
+      <h2>Why should I care?</h2>
+
+      <p><strong>The bigger picture:</strong> This case could impact the taxes of lots of multinationals.</p>
+
+      <p>There are <a href="#">about 1,000 multinationals based in Ireland</a> – many of which could be affected by the outcome of this case. Also, Ireland isn’t the only country that operates a low corporate tax regime with the aim of spurring investment within the country. More generally, the case speaks to the challenge of harmonizing national corporate tax codes within an increasingly globalized world.</p>
+
+      <p><strong>For the markets:</strong> So far, this has not been a big deal for Apple’s stock price.</p>
+
+      <p>It will likely take years for the European courts to pass down a final judgment. And while $14 billion is a lot of money, Apple has over $200 billion in cash, so the potential bill isn’t particularly worrisome for the company (although changes to tax policies could have a significant impact on future profits).</p>
+    </main>
+
+    <footer class="subscribe container">
+      <hr>
+      <div class="row">
+        <div class="col-sm-2 col-sm-offset-2">
+          <img src="img/mobile.png" class="img-responsive center-block" alt="Mobile">
+        </div>
+        <div class="col-sm-6">
+          <h3>Finance For Our Generation</h3>
+          <h2>Subscribe to our newsletter</h2>
+          <p>Understand today's financial news within 3 minutes. For free</p>
+
+          <form action="" method="get">
+            <div class="input-group">
+            <input class="form-control input-lg" type="text" placeholder="Enter your email address">
+            <span class="input-group-btn">
+              <button class="btn btn-primary btn-lg" type="submit">Subscribe</button>
+            </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </article>
 
   <footer>
     <% include ../partials/footer %>
   </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
