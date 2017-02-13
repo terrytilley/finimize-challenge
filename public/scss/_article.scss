@@ -20,6 +20,15 @@ article.article {
     p {
       font-size: 18px;
       font-weight: 300;
+
+
+      span {
+        margin-left: .5em;
+        margin-right: .5em;
+      }
+    }
+
+    span {
       margin-bottom: 5em;
     }
 
@@ -27,6 +36,29 @@ article.article {
       margin-bottom: -20em;
       border-radius: $border-radius-large;
       box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .social {
+      margin-top: 2em;
+
+      .fa-inverse {
+        color: $brand-primary;
+      }
+
+      p {
+        font-weight: 400;
+        float: left;
+      }
+
+      a {
+        color: $white;
+        text-decoration: none;
+
+        span {
+          margin-top: -.2em;
+          margin-left: .2em;
+        }
+      }
     }
   }
 
@@ -56,9 +88,13 @@ article.article {
   }
 
   footer.subscribe {
-    hr {
-      margin-bottom: 9em;
-    }
+    margin-bottom: 7em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    margin-bottom: 6em;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 
     h3 {
       color: lighten($gray-light, 20%);
@@ -67,6 +103,18 @@ article.article {
       margin-top: 4em;
       margin-bottom: 0;
       text-transform: uppercase;
+
+      @media (max-width: 1199px) {
+        margin-top: 2em;
+      }
+
+      @media (max-width: 991px) {
+        margin-top: 1em;
+      }
+
+      @media (max-width: 767px) {
+        margin-top: 6em;
+      }
     }
 
     h2 {
@@ -87,8 +135,11 @@ article.article {
         padding: 11px 16px 10px;
       }
     }
+
     img {
-      // margin-bottom: -5em;
+      @media (max-width: 767px) {
+        width: 200px;
+      }
     }
   }
 }
